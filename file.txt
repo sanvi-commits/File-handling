@@ -1,1 +1,1 @@
-This is a new file created because the original file was not found.
+& C:/Users/PC-6/AppData/Roaming/uv/python/cpython-3.14.5-windows-x86_64-none/python.exe c:/Users/PC-6/Documents/File-handling/file_types.py
