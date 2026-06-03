@@ -1,9 +1,8 @@
-try:
-    file = open("file.txt", "r")
-    content = file.read()
-    print(content)
-except FileNotFoundError as e:
-    print(f"The file was not found: {e}")
-    file = open("file.txt", "w")
-    file.write("This is a new file created because the original file was not found.")
-    file.close()
+import csv
+import os
+import pickle
+from create_file.files import create_file
+from create_file.bin import create_binary
+from create_file.csv import create_csv
+
+
